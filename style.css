@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+}
+
+section {
+    height: 75vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+article {
+    background-color: rgba(153, 126, 103, 0.804);
+}
+
+#about {
+    background-color: #c8b4959f;
+    justify-content: center;
+}
+
+#about article {
+    width: 80%;
+    height: 80%;
+    padding: 20px;
+}
+
+#about p {
+    font-size: 24px;
+}
+
+#about h2 {
+    text-align: center;
+}
+
+#cursus {
+    background-color: #e8dbc270;
+}
+
+#cursus article {
+    width: 40%;
+    height: 55vh;
+}
+
+#projects {
+    background-color: #d3bf9f9f;
+}
+
+#projects article {
+    width: 25%;
+    height: 55vh;
+    padding: 20px;
+}
+
+#projects img {
+    width: 100%;
+    height: 70%;
+}
+
+li {
+    list-style-type: none;
+    padding: 10px;
+    border: 2px solid black;
+    margin: 20px;
+}
+
+li:hover {
+    background-color: rgba(128, 128, 128, 0.514);
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+ul {
+    display: flex;
+    justify-content: center;
+    background-color: #e8dbc270;
+    position: sticky;
+    top: 0;
+}
+
+header {
+    background-color: #b2a89246;
+    background-image: url(code\ image.jpg);
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+    color: white;
+    background-size: cover;
+}
+
+div {
+    border: 3px solid black;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: #8a7e6748;
+}
+
+h3 {
+    text-align: center;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(code\ image.jpg);
+    padding: 20px;
+}
+
+footer img {
+    width: 40px;
+    margin: 30px;
+}
