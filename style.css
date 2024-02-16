@@ -40,6 +40,9 @@ article {
     width: 40%;
     height: 55vh;
 }
+#cursus article h2{
+    text-align: center;
+}
 
 #projects {
     background-color: #d3bf9f9f;
@@ -84,7 +87,7 @@ header {
     background-color: #b2a89246;
     background-image: url(code\ image.jpg);
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     padding: 50px;
     color: white;
     background-size: cover;
